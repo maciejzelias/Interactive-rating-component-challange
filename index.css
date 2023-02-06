@@ -1,0 +1,143 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+.hidden {
+  display: none;
+}
+
+* {
+  font-family: "Overpass", sans-serif;
+  max-width: 1440px;
+}
+
+body {
+  background-color: #141519;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.panel {
+  margin: auto;
+  background-color: #1f2630;
+  padding: 20px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.star {
+  background-color: #27303a;
+  height: 12px;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.title {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.description {
+  font-size: 13px;
+  color: #6c737d;
+  line-height: 150%;
+}
+
+.rating-group {
+  padding: 10px 10px 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  color: white;
+  background-color: #263038;
+  border-radius: 50%;
+}
+
+.rating:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.rating:focus {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submission {
+  margin-top: 1rem;
+  padding-right: 10px;
+}
+
+.submission button {
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #fc7712;
+  text-align: center;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 12px;
+}
+
+.submission button:hover {
+  background-color: white;
+  color: #fc7712;
+}
+
+.thank-you-panel {
+  margin: auto;
+  background-color: #1f2630;
+  padding: 20px;
+  width: 300px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.thank-you-panel img {
+  margin: 20px 0px 10px 0px;
+  width: 150px;
+}
+
+.thank-you-panel .title {
+  margin-top: 1rem;
+}
+
+.selected {
+  border-radius: 40px;
+  background-color: #263038;
+  color: #aa5e28;
+  font-size: 12px;
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+}
+
+.thank-you-panel .description {
+  text-align: center;
+}
+
+@media all and (max-width: 375px) {
+
+  
+
+  .panel {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
